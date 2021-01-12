@@ -12,4 +12,8 @@ Examples:
 """
 def sort_by_length(lst):
     # Your code here
+    lst.sort(key= lambda list_item: len(list_item) )
+    print(lst)
 
+
+sort_by_length(["aaaaaaa", "ccc", "dddd", "bb"])
