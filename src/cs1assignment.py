@@ -107,3 +107,5 @@ def csMakeItJazzy(chords):
             my_list.append(new_chord)
         print(new_chord)
     return(my_list)
+
+######
