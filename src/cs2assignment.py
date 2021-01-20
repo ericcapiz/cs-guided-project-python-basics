@@ -5,7 +5,7 @@
 # csRemoveTheVowels("Lambda School is awesome!") -> "Lmbd Schl s wsm!"
 
 def csRemoveTheVowels(input_str):
-    vowels = ('a','e','i','o','u','A','E','I','O','U')
+    vowels = ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
     for char in input_str:
         if char in vowels:
             input_str = input_str.replace(char, "")
@@ -17,7 +17,8 @@ def csRemoveTheVowels(input_str):
 
 # Notes:
 
-# The input string will never be empty and you do not need to validate for different data types.
+# The input string will never be empty 
+# and you do not need to validate for different data types.
 
 def csShortestWord(input_str):
     new_str = input_str.split()
@@ -35,7 +36,10 @@ def csShortestWord(input_str):
 # csSumOfPositive([-3, -2]) -> 0
 # Notes:
 
-# If the input_arr does not contain any positive integers, the default sum should be 0.
+#If the input_arr 
+# does not 
+# contain any 
+# positive integers, the default sum should be 0.
 
 def csSumOfPositive(input_arr):
     new_list = [num for num in input_arr if num > 0]
